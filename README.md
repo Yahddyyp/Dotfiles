@@ -1,0 +1,6 @@
+To install dependencies:
+
+curl -L https://github.com/Yahddyyp/Dotfiles/raw/main/install.sh | zsh 
+
+https://www.lazyvim.org/
+
