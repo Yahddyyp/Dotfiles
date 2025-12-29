@@ -1,4 +1,4 @@
-To install dependencies:
+TO INSTALL DEPENDENCIES:
 
 curl -L https://github.com/Yahddyyp/Dotfiles/raw/main/install.sh | zsh 
 
