@@ -1,27 +1,38 @@
-DEPENDENCIES:
+# Yahddyyp's macOS Tahoe Dotfiles
 
-Install script- 
-curl -L https://github.com/Yahddyyp/Dotfiles/raw/main/install.sh | zsh 
+[![Shell](https://img.shields.io/badge/Shell-81.4%25-brightgreen?logo=shell)](https://github.com/Yahddyyp/Dotfiles/search?l=shell)
+[![Lua](https://img.shields.io/badge/Lua-7.8%25-blue?logo=lua)](https://github.com/Yahddyyp/Dotfiles/search?l=lua)
+[![GLSL](https://img.shields.io/badge/GLSL-10.8%25-purple)](https://github.com/Yahddyyp/Dotfiles/search?l=glsl)
+[![macOS](https://img.shields.io/badge/macOS-Tahoe-orange?logo=apple)](https://www.apple.com/macos/)
 
-Lazyvim:- 
-https://www.lazyvim.org/
+Custom zsh, Neovim, and shader configurations for macOS Tahoe.
 
-ZSH-AUTOSUGGESTIONS:- 
-brew install zsh-autosuggestions
+## Contents
+- Dependencies
+- Installation
+  
+## Dependencies
+Install.sh automatically installs:
 
-git and gh
+**Core Packages:**<br>
+brew install zsh neovim git ripgrep fd fzf<br>
+brew install –cask font-fira-code-nerd-font<br>
+brew install yabai skhd kitty lazygit
 
-Jankyborders:- 
-brew tap FelixKratz/formulae
-brew install borders
+**Xcode Command Line Tools:**<br>
+xcode-select –install
 
-Shotrr(optional)
+## Installation
+curl -L https://github.com/Yahddyyp/Dotfiles/raw/main/install.sh | zsh
 
-Raycast(optional)
 
-WALLPAPERS:-
+install.sh handles everything:
+1. Clones the full repo to $HOME/.dotfiles
+2. Installs Homebrew if missing
+3. Installs all dependencies above
+4. Creates symlinks for all dotfiles
+5. Sets zsh as default shell
+6. Downloads required fonts
 
-https://github.com/dharmx/walls
-
-https://wallhaven.cc/
-
+**After install:**
+source ~/.zshrc
