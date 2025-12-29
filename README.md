@@ -36,3 +36,5 @@ install.sh handles everything:
 
 **After install:**
 source ~/.zshrc
+
+ps the install.sh and readme are ai generated bc i am too lazy to make them myself
