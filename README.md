@@ -1,8 +1,12 @@
 TO INSTALL DEPENDENCIES:
 
-curl -L https://github.com/Yahddyyp/Dotfiles/raw/main/install.sh | zsh 
+Install script- curl -L https://github.com/Yahddyyp/Dotfiles/raw/main/install.sh | zsh 
 
-https://www.lazyvim.org/
+Lazyvim:- https://www.lazyvim.org/
+
+ZSH-AUTOSUGGESTIONS:- brew install zsh-autosuggestions
+
+git and gh
 
 WALLPAPERS:-
 
