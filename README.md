@@ -12,7 +12,19 @@ Custom zsh, Neovim, and shader configurations for macOS Tahoe.
   
 ## Dependencies
 **Core Packages:**<br>
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)(Homebrew)<br>
 brew install zsh neovim git ripgrep fd fzf<br>
 brew install –cask font-fira-code-nerd-font<br>
-brew install yabai skhd kitty lazygit
+brew install yabai skhd kitty lazygit<br>
+brew install borders<br>
+curl -fsSL https://raw.githubusercontent.com/spicetify/cli/main/install.sh | sh<br>
+brew install btop<br>
+brew install cava<br>
+raycast,shotrr,altTab(optional)<br>
+brew install ghostty iterm2<br>
+python<br>
+lazyvim<br>
+brew install luarocks<br>
+brew install powerlevel10k<br>
+brew install tree-sitter tree-sitter-cli<br>
 
