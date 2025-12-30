@@ -20,7 +20,7 @@ brew install borders<br>
 curl -fsSL https://raw.githubusercontent.com/spicetify/cli/main/install.sh | sh<br>
 brew install btop<br>
 brew install cava<br>
-raycast,shotrr,altTab(optional)<br>
+raycast, shotrr, altTab(optional)<br>
 brew install ghostty iterm2<br>
 python<br>
 lazyvim<br>
