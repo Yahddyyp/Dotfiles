@@ -7,7 +7,7 @@
 
 ![Terminal Screenshot](SCR-20251229-nuud.png)
 
-Custom zsh, Neovim, and shader configurations for macOS Tahoe.
+Custom zsh, Neovim, and shader configurations for macOS.
 
   
 ## Dependencies
