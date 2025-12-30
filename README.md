@@ -9,9 +9,6 @@
 
 Custom zsh, Neovim, and shader configurations for macOS Tahoe.
 
-## Contents
-- Dependencies
-- Installation
   
 ## Dependencies
 **Core Packages:**<br>
@@ -19,22 +16,3 @@ brew install zsh neovim git ripgrep fd fzf<br>
 brew install –cask font-fira-code-nerd-font<br>
 brew install yabai skhd kitty lazygit
 
-**Xcode Command Line Tools (Recommended, not required):**<br>
-xcode-select –install
-
-## Installation
-curl -L https://github.com/Yahddyyp/Dotfiles/raw/main/install.sh | zsh
-
-
-install.sh handles everything:
-1. Clones the full repo to $HOME/.dotfiles
-2. Installs Homebrew if missing
-3. Installs all dependencies above
-4. Creates symlinks for all dotfiles
-5. Sets zsh as default shell
-6. Downloads required fonts
-
-**After install:**
-source ~/.zshrc
-
-ps the install.sh and readme are ai generated bc i am too lazy to make them myself
